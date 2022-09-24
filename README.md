@@ -2,7 +2,7 @@
 
 Backend tarafında seed işleminde birden fazla kullanıcı oluşturulduğundan ve mailtrap üzerinden mail gittiği için observer'da APP_DEBUG kontrolü yaptım. 
 
-Seed işleminde APP_DEBUG=true olmalı. Proje kullanım durumunda APP_DEBUG=false olmalı.
+Seed işleminde `APP_DEBUG=true` olmalı. Proje kullanım durumunda `APP_DEBUG=false` olmalı.
 
 Frontend tarafında src/config.js içinde aşağıdaki bilgiler yer almakta. APP_NAME token oluştururken kullanılmakta.
 
