@@ -14,6 +14,7 @@ export default {
 ```
 
 Vue uygulaması üzerinden hesap oluşturma işleminde kullanılacak tanımlı kodlar: 
+
 `1Ae5rE8Q` 
 `2SY6LSPe` 
 `3q9pjI72` 
