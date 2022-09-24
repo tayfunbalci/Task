@@ -4,7 +4,7 @@ Backend tarafında seed işleminde birden fazla kullanıcı oluşturulduğundan 
 
 Seed işleminde `APP_DEBUG=true` olmalı. Proje kullanım durumunda `APP_DEBUG=false` olmalı.
 
-Frontend tarafında `src/config.js` içinde aşağıdaki bilgiler yer almakta. `APP_NAME` token oluştururken kullanılmakta.
+Frontend tarafında `src/config.js` içinde aşağıdaki bilgiler yer almakta. `APP_NAME` login işleminde token oluştururken kullanılmakta.
 
 ```js
 export default {
