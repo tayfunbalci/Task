@@ -7,7 +7,8 @@ import PanelView from "../views/Panel/PanelView.vue"
 import DashboardView from "../views/Panel/DashboardView.vue";
 import ParentView from "../views/Panel/ParentView.vue";
 import ParentEditView from "../views/Panel/ParentEditView.vue";
-import StudentView from "../views/Panel/StudentView.vue";;
+import StudentView from "../views/Panel/StudentView.vue";
+import AboutView from "../views/AboutView.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,11 +22,8 @@ const router = createRouter({
     {
       path: "/about",
       name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import("../views/AboutView.vue"),
-      meta: { requiresAuth: true }
+      component: AboutView,
+      meta: { requiresAuth: false }
     },
     {
       path: "/contact",
